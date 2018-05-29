@@ -1,3 +1,5 @@
+package kyu;
+
 public class TenMinWalk {
     public static boolean isValid(char[] walk) {
         int path = 0;

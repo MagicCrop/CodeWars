@@ -1,3 +1,5 @@
+package kyu;
+
 public class XO {
     public static boolean getXO(String str) {
         String[] letters = str.toLowerCase().split("");

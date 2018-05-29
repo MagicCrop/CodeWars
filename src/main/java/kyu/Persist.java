@@ -1,3 +1,5 @@
+package kyu;
+
 class Persist {
     public static int persistence(long n) {
         long sum = 1;

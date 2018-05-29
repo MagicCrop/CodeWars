@@ -1,3 +1,5 @@
+package kyu;
+
 public class FindShort {
     public static int findShort(String s) {
         String[] words = s.split(" ");

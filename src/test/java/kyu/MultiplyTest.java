@@ -1,3 +1,5 @@
+package kyu;
+
 import org.junit.Test;
 
 public class MultiplyTest {

@@ -1,5 +1,8 @@
-import static org.junit.Assert.*;
+package kyu;
+
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class LongestConsecTest {
     

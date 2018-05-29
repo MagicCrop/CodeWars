@@ -1,3 +1,5 @@
+package kyu;
+
 public class Digitize {
     public static int[] digitize(long n) {
         return new StringBuilder()

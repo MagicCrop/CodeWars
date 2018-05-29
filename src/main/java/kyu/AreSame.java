@@ -1,3 +1,5 @@
+package kyu;
+
 import java.util.Arrays;
 
 public class AreSame {

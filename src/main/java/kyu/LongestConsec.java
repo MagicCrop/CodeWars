@@ -1,3 +1,5 @@
+package kyu;
+
 class LongestConsec {
     
     public static String longestConsec(String[] strarr, int k) {

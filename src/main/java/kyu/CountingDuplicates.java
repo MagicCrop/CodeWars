@@ -1,3 +1,5 @@
+package kyu;
+
 import java.util.HashMap;
 
 public class CountingDuplicates {
