@@ -1,6 +1,4 @@
 def make_readable(seconds):
-    hours = seconds / 3600
-    seconds -= hours * 3600
-    minutes = seconds / 60
-    seconds -= minutes * 60
-    return "%02d:%02d:%02d" % (hours, minutes, seconds)
+    return "%02d:%02d:%02d" % (seconds / 3600, (seconds / 60) % 60, seconds % 60)
+
+# return '{:02}:{:02}:{:02}'.format(s / 3600, s / 60 % 60, s % 60) <- was a better solution based on the formatting syntax (both work)
