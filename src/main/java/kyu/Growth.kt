@@ -21,4 +21,7 @@ generateSequence(pp0) {
 val applyPercent: (Double, Int) -> Int = {
 a, b  -> (a/100*b).toInt()
 }
+^ i find this to be a bit unreadable i would prefer the next
+
+generateSequence(pp0.toDouble()) { it * (1 + percent / 100) + aug }.takeWhile { it < p }.count()
  */
